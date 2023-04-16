@@ -1,6 +1,9 @@
 .contaner
  {
-color: coral
+color:#F6F6F6
+}
+.kurs{
+    color: black;
 }
 .paragraf
 {
@@ -9,5 +12,10 @@ color: coral
 .small{
     background-color: #F6F6F6;
 } 
-
+.anordert{
+    background-color: #F6F6F6;
+}
+.oyna{
+    background-color: #F6F6F6;list-style:none;
+}
 
