@@ -1,6 +1,6 @@
 .contaner
  {
-color:#F6F6F6
+ background-color: #F6F6F6;
 }
 .kurs{
     color: black;
@@ -13,9 +13,14 @@ color:#F6F6F6
     background-color: #F6F6F6;
 } 
 .anordert{
-    background-color: #F6F6F6;
+    background-color: #F6F6F6; width: 33.3%;
 }
 .oyna{
-    background-color: #F6F6F6;list-style:none;
+    background-color: #F6F6F6;list-style:none; width: 33.3%;
 }
-
+.oyna3{
+    background-color: #F6F6F6; width: 33.3%;
+}
+li{
+    list-style:none;
+}
