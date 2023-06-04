@@ -1,26 +1,23 @@
-.contaner
- {
- background-color: #F6F6F6;
+@font-face {
+    font-family: 'Rubik';
+    src: url(./assets/font/Rubik-Regular.woff2) format('woff2'),
+        url(./assets/font/Rubik-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
-.kurs{
-    color: black;
+
+@font-face {
+    font-family: 'Rubik';
+    src: url(./assets/font/Rubik-Medium.woff2) format('woff2'),
+        url(./assets/font/Rubik-Medium.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
-.paragraf
-{
-    background-color: #F6F6F6;
-}
-.small{
-    background-color: #F6F6F6;
-} 
-.anordert{
-    background-color: #F6F6F6; width: 33.3%;
-}
-.oyna{
-    background-color: #F6F6F6;list-style:none; width: 33.3%;
-}
-.oyna3{
-    background-color: #F6F6F6; width: 33.3%;
-}
-li{
-    list-style:none;
+
+* ::after, ::before *{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
 }
