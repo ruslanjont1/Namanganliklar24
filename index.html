@@ -5,54 +5,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./normalise.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/normalise.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Namanganliklar24</title>
 </head>
 
 <body>
     <header id="header">
-        <div class="header_top">
+        <div class="header__top between">
             <div class="container">
-                <div class="header__top-items">
-                    <div class="header__items_left">
+                <div class="header__items between">
+                    <div class="header__items_left between">
                         <a href="./index.html">
                             <img src="./assets/images/logo.svg" alt="">
                         </a>
-                        <div class="header__top_right_currency">
-                            <p><span>$</span>10137.2</p>
-                            <p><span>p</span>10137.2</p>
+                        <div class="header__items_right_currency between">
+                            <p class="currency__item_one"><span>$</span>10137.2</p>
+                            <p class="currency__item_thu"><span>P</span>10137.2</p>
                         </div>
                     </div>
-                </div>
-                <div class="header__items_right">
-                    <input class="header__left_search" type="text" placeholder="Поиск">
-                    <ul class="header__right_languages">
-                        <li class="header__right_language"><a href="#УЗ">УЗ</a></li>
-                        <li class="header__right_language_active"><a href="#РУ">РУ</a></li>
-                    </ul>
-                    <a href="#kirish" class="header__right_login">Войти</a>
+                    <div class="header__items_right between">
+                        <div class="header__left_search flex">
+                            <span class="material-symbols-outlined">
+                                search
+                                </span>
+                            <input class="header__left_search_item border" type="text" placeholder="Поиск">
+                        </div>
+                        <ul class="header__languages flex">
+                            <li class="header__languages_li"><a class="header__language" href="#УЗ">УЗ</a></li>
+                            <li class="header__languages_li"><a class="header__language_active" href="#РУ">РУ</a></li>
+                        </ul>
+                        <a href="#kirish" class="header__right_login btn">Войти</a>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
+        <nav class="nav">
+            <div class="container border">
+                <div class="nav__ul between">
+                    <li class="nav__list"><a href="" class="nav__link">Главное</a></li>
+                    <li class="nav__list"><a href="" class="nav__link">Интересное</a></li>
+                    <li class="nav__list"><a href="" class="nav__link">Экономика</a></li>
+                    <li class="nav__list"><a href="" class="nav__link">Политика</a></li>
+                    <li class="nav__list"><a href="" class="nav__link">Общество</a></li>
+                    <li class="nav__list"><a href="" class="nav__link">Технологии</a></li>
+                    <li class="nav__list"><a href="" class="nav__link">Спорт</a></li>
+                    <li class="nav__list"><a href="" class="nav__link">Культура</a></li>
+                    <li class="nav__list"><a href="" class="nav__link">Происшествия</a></li>
+                    <li class="nav__list"><a href="" class="nav__link">Наука</a></li>
+                </div>
+            </div>
+        </nav>
     </header>
-    <nav>
+    <main id="main">
         <div class="container">
-            <div class="ul nav__ul">
-                <li class="nav__list"><a href="" class="nav__link">Главное</a></li>
-                <li class="nav__list"><a href="" class="nav__link">Интересное</a></li>
-                <li class="nav__list"><a href="" class="nav__link">Экономика</a></li>
-                <li class="nav__list"><a href="" class="nav__link">Политика</a></li>
-                <li class="nav__list"><a href="" class="nav__link">Общество</a></li>
-                <li class="nav__list"><a href="" class="nav__link">Технологии</a></li>
-                <li class="nav__list"><a href="" class="nav__link">Спорт</a></li>
-                <li class="nav__list"><a href="" class="nav__link">Культура</a></li>
-                <li class="nav__list"><a href="" class="nav__link">Происшествия</a></li>
-                <li class="nav__list"><a href="" class="nav__link">Наука</a></li>
+            <div class="main__items">
+                <aside>
+                    <img class="image_1" src="./assets/images/optimize 1.png" alt="">
+                </aside>
+                <div class="main__item">
+                    <li class="main__list">
+                        <p class="main__text">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного
+                            соглашения</p>
+                        <p class="main__text2"><small>Лидер Социал-демократической партии Германии (СДПГ) и кандидат на
+                                должность...</small></p>
+                        <img src="./assets/images/image 1.png" alt="">
+                        <img src="./assets/images/image 4.   .png" alt="">
+                        <p><small>ИА Красная Весна 15:55</small></p>
+                    </li>
+                    <li class="main__list">
+                        <p>Ученые доказали экспериментальным путем пользу покровных культур</p>
+                        <p>Новое исследование ученых университета Иллинойса объединяет полевые данные... </p>
+                        <img src="./assets/images/image 2.png" alt="">
+                        <div class="main__">
+                            <img src="./assets/images/image 5 — копия 2.png" alt="">
+                            <p><small>Газета.Ru 12:54</small></p>
+                        </div>
+                    </li>
+                    <li class="main__list">
+                        <p>Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</p>
+                        <p>Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
+                        <img src="./assets/images/image 3.png" alt="">
+                        <img src="./assets/images/image 6.png" alt="">
+                        <p><small>Хайтек+ 13:44</small></p>
+                    </li>
+                    <li class="main__list">
+                        <p>Стали известны ёмкости аккумуляторов всех моделей iPhone 13</p>
+                        <p><small>Во время презентации iPhone 13 Apple придала большое значения...</small></p>
+                        <img src="./assets/images/image 7.png" alt="">
+                        <img src="./assets/images/image 4.png" alt="">
+                    </li>
+                    <li class="main__list">
+                        <p>Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</p>
+                        <p><small>Во время презентации iPhone 13 Apple придала большое значение...</small></p>
+                        <img src="./assets/images/image 1 — копия.png" alt="">
+                        <img src="./assets/images/image 5.png" alt="">
+                        <p><small>Lenta.ru 10:54</small></p>
+                    </li>
+                    <li class="main__list">
+                        <p>Китайская марка JAC повысила цены на лифтбек и пикап в России</p>
+                        <p><small>Две модели китайского бренда JAC из пяти, представленных на российском...</small></p>
+                        <img src="./assets/images/image 4 — копия.png" alt="">
+                        <img src="./assets/images/image 5 — копия.png" alt="">
+                        <p><small>Тарантас Ньюс 10:44</small></p>
+                    </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+    </main>
 </body>
 
 
